@@ -1,0 +1,62 @@
+/* UserForm.css */
+
+/* Body styles */
+
+/* Style for the user form container */
+.user-form-container {
+  background-image:url('/src/image/pic2.jpg');
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat;
+   /* Background color for the form */
+  padding: 20px; /* Padding around the form */
+  border-radius: 5px; /* Rounded corners for the form container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  display: flex; /* Use flexbox to align items vertically */
+  flex-direction: column; /* Align items in a column */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Style for the form title */
+.user-form-container h2 {
+  margin-bottom: 25px; /* Margin below the form title */
+  font-size: 1.5rem; /* Larger font size for the title */
+  color: #333333; /* Text color for the title */
+}
+
+/* Style for form labels */
+.user-form-container label {
+  display: block; /* Display labels as blocks */
+  margin-bottom: 10px; /* Margin below each label */
+  font-weight: bold; /* Bold font weight for labels */
+  width: 100%; /* Full width for labels */
+}
+
+/* Style for form inputs */
+.user-form-container input[type="text"],
+.user-form-container input[type="number"],
+.user-form-container input[type="date"],
+.user-form-container textarea {
+  width: calc(100% - 22px); /* Full width for input fields minus padding and border */
+  padding: 10px; /* Padding for input fields */
+  margin-bottom: 15px; /* Margin below each input field */
+  border: 1px solid #a54d04; /* Border for input fields */
+  border-radius: 50px; /* Rounded corners for input fields */
+  font-size: 1rem; /* Font size for input fields */
+}
+
+/* Style for the submit button */
+.user-form-container button[type="submit"] {
+  background-color: #007bff; /* Background color for the submit button */
+  color: #ffffff; /* Text color for the submit button */
+  border: none; /* No border for the submit button */
+  border-radius: 5px; /* Rounded corners for the submit button */
+  padding: 10px 20px; /* Padding for the submit button */
+  font-size: 1rem; /* Font size for the submit button */
+  cursor: pointer; /* Cursor style for the submit button */
+}
+
+/* Style for the submit button on hover */
+.user-form-container button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
